@@ -8,13 +8,13 @@
 Summary:	WWW::Google::Images - Google Images Agent
 Summary(pl):	WWW::Google::Images - agent Google Images
 Name:		perl-WWW-Google-Images
-Version:	0.5.1
-Release:	2
+Version:	0.6.1
+Release:	0.1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	09cdaa726f31fca0d7d9894d8f52d260
+# Source0-md5:	0cbce719141866a7636ff81e8f66ad88
 URL:		http://search.cpan.org/dist/WWW-Google-Images/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
