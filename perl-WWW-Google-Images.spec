@@ -6,7 +6,7 @@
 %define	pdir	WWW
 %define	pnam	Google-Images
 Summary:	WWW::Google::Images - Google Images Agent
-#Summary(pl):	
+Summary(pl):	WWW::Google::Images - agent Google Images
 Name:		perl-WWW-Google-Images
 Version:	0.5.1
 Release:	2
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/WWW/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	09cdaa726f31fca0d7d9894d8f52d260
+URL:		http://search.cpan.org/dist/WWW-Google-Images/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -26,10 +27,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This module may be used search images on Google. Its interface is
-heavily inspired from L<WWW::Google::Groups>.
+heavily inspired from WWW::Google::Groups.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten modu³ mo¿e byæ u¿ywany do wyszukiwania obrazków w Google. Jego
+interfejs jest w znacznym stopniu zainspirowany WWW::Google::Groups.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -55,5 +57,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog
 %attr(755,root,root) %{_bindir}/*
 %{perl_vendorlib}/WWW/Google/*.pm
-%{perl_vendorlib}/WWW/Google/Images/
+%{perl_vendorlib}/WWW/Google/Images
 %{_mandir}/man?/*
