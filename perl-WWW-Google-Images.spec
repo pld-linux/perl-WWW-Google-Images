@@ -6,7 +6,7 @@
 %define	pdir	WWW
 %define	pnam	Google-Images
 Summary:	WWW::Google::Images - Google Images Agent
-Summary(pl):	WWW::Google::Images - agent Google Images
+Summary(pl.UTF-8):   WWW::Google::Images - agent Google Images
 Name:		perl-WWW-Google-Images
 Version:	0.6.4
 Release:	1
@@ -29,8 +29,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module may be used search images on Google. Its interface is
 heavily inspired from WWW::Google::Groups.
 
-%description -l pl
-Ten modu≥ moøe byÊ uøywany do wyszukiwania obrazkÛw w Google. Jego
+%description -l pl.UTF-8
+Ten modu≈Ç mo≈ºe byƒá u≈ºywany do wyszukiwania obrazk√≥w w Google. Jego
 interfejs jest w znacznym stopniu zainspirowany WWW::Google::Groups.
 
 %prep
