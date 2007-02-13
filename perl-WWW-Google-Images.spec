@@ -6,7 +6,7 @@
 %define	pdir	WWW
 %define	pnam	Google-Images
 Summary:	WWW::Google::Images - Google Images Agent
-Summary(pl.UTF-8):   WWW::Google::Images - agent Google Images
+Summary(pl.UTF-8):	WWW::Google::Images - agent Google Images
 Name:		perl-WWW-Google-Images
 Version:	0.6.4
 Release:	1
