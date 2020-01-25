@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests		# perform "make test" (require Internet connection)
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	WWW
 %define	pnam	Google-Images
 Summary:	WWW::Google::Images - Google Images Agent
