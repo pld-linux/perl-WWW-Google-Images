@@ -8,7 +8,7 @@ Summary:	WWW::Google::Images - Google Images Agent
 Summary(pl.UTF-8):	WWW::Google::Images - agent Google Images
 Name:		perl-WWW-Google-Images
 Version:	0.6.5
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
